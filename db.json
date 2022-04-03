@@ -1,19 +1,17 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+    "medicine":
+      {
+        "id": 1,
+        "tablet": "Amoxicillin and Potassium Clavulanate",
+        "price": 825,
+        "discount": 7,
+        "highlights": "Unfortunately, neither, the arches wise and not my own.",
+        "Discription": "Even or the vehicle.",
+        "uses": "Curabit pregnant, but at the ball. In this habitable street dictumst now please invest.",
+        "benefits": "with the homes and the gods and the great gods will be born; a ridiculous mouse will be born,Now pure.\n\nPhasellus in football,",
+        "brand": "AS Medication Solutions LLC",
+        "image": "https://i.ibb.co/4WZ3thp/pract.png",
+        "category": "Fitness Wellness + Protein Supplements"
+      }
+
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
