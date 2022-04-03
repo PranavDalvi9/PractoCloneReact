@@ -1,0 +1,117 @@
+#DownloadPractoMain{
+    width: 90%;
+    margin: auto;
+    margin-top: 9%;
+    font-family: Camphor,sans-serif;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+}
+
+#DownloadPracto>div>img{
+    width: 70%;
+    height: 100%;
+    /* border: 2px solid red; */
+    margin-left: 16%;
+}
+
+#DownloadPracto{
+    display: flex;
+   
+}
+.DownloadPractoNumberAND{
+    display: flex;
+}
+.DownloadPractoNumberANDEnterNum{
+    display: flex;
+    
+    /* border: 1px solid black; */
+}
+
+#DownloadPractoMainInfo{
+    width: 100%;
+    /* border: 2px solid red; */
+    /* margin-left: -2%; */
+}
+
+#DownloadPractoMainInfo>div:nth-child(1){
+    margin-top: 5%;
+    /* border: 2px solid palevioletred; */
+    font-size: 24px;
+    font-weight: 600;
+    /* color: #2d2d32; */
+}
+#DownloadPractoMainInfo>div:nth-child(2){
+    font-size: 16px;
+    color: #787887;
+}
+
+#DownloadPractoMainInfo>div:nth-child(3){
+    margin-top: 20px!important;
+    color: #414146;
+    font-size: 16px;
+}
+
+
+#DownloadPractoMainInfo>div:nth-child(4){
+    font-size: 16px;
+    color: #414146;
+}
+
+#DownloadPractoMainInfo>div:nth-child(5){
+    margin-top: 50px!important;
+    font-size: 16px;
+    color: #414146;
+}
+
+#DownloadPractoMainInfo>div:nth-child(6){
+    margin-top: 50px!important;
+    font-size: 16px;
+    color: #414146;
+}
+
+.DownloadPractoNumberAND>div:nth-child(1){
+    /* border: 2px solid red; */
+    padding: 15px;
+    vertical-align: bottom;
+    border-right: 1px solid rgba(180,180,190,.3);
+    font-weight: 700;
+}
+
+.DownloadPractoNumberAND>input{
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+    flex-grow: 100;
+    background-color: transparent;
+    line-height: 3;
+}
+
+.DownloadPractoNumberAND>div>button{
+    padding: 15px 30px;
+    background-color: #14bef0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.DownloadPractoNumberAND>a:nth-child(1){
+    /* margin-left: 1.2%; */
+    margin-right: 3%;
+}
+.DownloadPractoNumberAND>a:nth-child(1)>img{
+    /* margin-right: 2%; */
+    /* border: 2px solid red; */
+    margin-top: 25px!important;
+    width: 130px;
+    height: 40px;
+}
+
+.DownloadPractoNumberAND>a:nth-child(2)>img{
+    /* border: 2px solid red; */
+    margin-top: 25px!important;
+    width: 130px;
+    height: 40px;
+}

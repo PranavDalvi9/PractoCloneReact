@@ -1,0 +1,151 @@
+#main{
+    border: 2x solid red;  
+    width: 85%;
+    height: 1000px;
+    display: flex;
+    /* margin-top: 10%; */
+    padding-top: 15%;
+}
+
+body{
+background-color: #FFFFFF;
+font-family: Camphor, sans-serif;
+}
+
+
+#left{
+    /* border: 1px solid red; */
+    width: auto;
+    height: 400px;
+    margin-left: 8%;
+
+
+}
+
+#right{
+    /* border: 1px solid red; */
+    height: auto;
+    width: 50%;
+    /* margin-left: 2%; */
+    text-align: start;
+    overflow: auto;
+}
+
+.content{
+    border: 4px solid #F0F0F5;
+    width: 80%;
+    margin: auto;
+    text-align: start;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Camphor, sans-serif;;
+}
+
+#image{
+    border: 4px solid #F0F0F5;
+    width: 80%;
+    margin: auto; 
+}
+
+#addto{
+    background-color: #14BEF0;
+    padding: 10px 15px;
+    width: 70%;
+    color: white;
+    font-size: 19px;
+    margin-left: 15%;
+   margin-top: 5%;
+}
+.content2{
+    border: 2px solid #F0F0F5;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.highlight{
+
+    border: 2px solid #F0F0F5;
+    width: 100%;
+    margin-top: 5%;
+
+}
+#benifits{
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+#use{
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.discount{
+    color: #00A500
+}
+
+.discount2{
+    text-decoration: line-through;
+    color: #787887;
+}
+
+span{
+    font-size: 14px;
+    font-family: Camphor - 400;
+}
+
+li{
+    font-size: 14px;
+    font-family: Camphor - 400;
+}
+
+
+@media (max-width:480px)  {
+
+
+    #left{
+        /* border: 1px solid red; */
+        width: auto;
+        height: 400px;
+        margin-left: 0%;
+    
+    }
+    #addto{
+        background-color: #14BEF0;
+        padding: 8px 8px;
+        width: 70%;
+        color: white;
+        font-size: 19px;
+        margin-left: 15%;
+       margin-top: 5%;
+    }
+
+}
+
+
+
+@media (max-width:1020px)  {
+
+
+    #left{
+        /* border: 1px solid red; */
+        width: auto;
+        height: 400px;
+        margin-left: 0%;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

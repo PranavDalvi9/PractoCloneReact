@@ -1,0 +1,247 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+}
+
+h4,
+p {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+}
+
+.Labtests {
+  margin: auto;
+  width: 80%;
+  /* border: 1px solid red; */
+  /* padding-top: 8%; */
+}
+
+.diagnostic {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  /* border: 1px solid red; */
+}
+
+.diagnostic > div {
+  border: 1px solid rgb(215, 207, 207);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.head {
+  padding: 10px 10px;
+}
+
+.head > div {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.head > p {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.bottom > div {
+  text-align: center;
+  padding-top: 15px;
+  height: 30px;
+  border: 1px solid rgb(215, 207, 207);
+  color: blue;
+  font-weight: bolder;
+}
+
+/* ==================== */
+
+.diagnostic-1 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  /* border: 1px solid red; */
+}
+
+.diagnostic-1 > div {
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.diagnostic-1 :hover {
+  color: blue;
+}
+
+.diagnostic-1 > div > img {
+  width: 100px;
+  height: 100px;
+}
+
+.diagnostic-1 > div > div {
+  margin-top: 10px;
+}
+
+/* ========================== */
+
+.package {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  /* border: 1px solid red; */
+}
+
+.package > div {
+  border: 1px solid rgb(167, 166, 166);
+}
+
+.image {
+  width: 100%;
+  /* border: 1px solid rgb(167, 166, 166); */
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.mid {
+  padding: 10px 10px 10px 10px;
+}
+.years {
+  color: #787887;
+  font-weight: bold;
+}
+
+.age {
+  color: rgb(120, 120, 135);
+}
+
+.basic {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.ak {
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.line {
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.mid-bottom {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.amount {
+  font-size: 20px;
+  color: rgb(65, 65, 70);
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.saving {
+  font-size: 14px;
+  color: rgb(180, 180, 190);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.discount {
+  color: rgb(0, 165, 0);
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+button {
+  background-color: #14bef0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(20, 173, 219);
+  cursor: pointer;
+}
+
+/* =========================== */
+
+.medical {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  /* border: 1px solid red; */
+}
+
+#medical-1 {
+  display: flex;
+  height: 60px;
+  /* border: 1px solid red; */
+}
+
+#medical-1 > span {
+  margin-top: 15px;
+}
+
+.img-left > img {
+  width: 35px;
+  height: 35px;
+}
+
+.img-right > h4 {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.faint {
+  font-size: 12px;
+  font-family: Camphor, Helvetica, Arial, sans-serif;
+  color: rgb(120, 120, 135);
+}
+
+.medical-1,
+.medical-3,
+.medical-5,
+.medical-2,
+.medical-4,
+.medical-6,
+.medical-7 {
+  padding: 10px 10px;
+  margin: auto;
+  /* height: 60px; */
+}
+
+.medical-5,
+.medical-2,
+.medical-4,
+.medical-6 {
+  height: 40px;
+}
+
+.boxes {
+  border-radius: 5px;
+  border: 1px solid rgb(216, 206, 206);
+}

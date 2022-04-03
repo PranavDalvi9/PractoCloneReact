@@ -1,0 +1,96 @@
+.section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-weight: 400;
+    font-size: 14px;
+    /* border: 1px solid red; */
+  }
+
+  .wrap {
+    padding-top: 78px;
+    padding-bottom: 32px;
+    color: #414146;
+    position: relative;
+    padding: 25px 50px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .heading {
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: #2d2d32;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "CamphorBold";
+    text-align: start;
+    
+  }
+
+  .container {
+    text-align: left;
+    color: #414146;
+    width: auto;
+    /* border: 1px solid black; */
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .col{
+    flex-basis: 50%;
+    display: block;  
+  }
+
+  .bigtext {
+    cursor: pointer;
+    padding-left: 27px;
+    display: block;
+    position: relative;
+    z-index: 4;
+    line-height: 1.43;
+    color: #414146;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "CamphorBold";
+  }
+  .textsub {
+    margin: 0 100px 16px 27px;
+    line-height: 1.25;
+    padding: 0 0 10px;
+    white-space: pre-line;
+    border-bottom: 1px solid rgba(240, 240, 245, 0.5);
+    font-size: 16px;
+    color: #787887;
+  }
+
+
+  .bigtext2 {
+    cursor: pointer;
+    padding-left: 27px;
+    display: block;
+    position: relative;
+    /* z-index: 4; */
+    line-height: 1.43;
+    color: #414146;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "CamphorBold";
+  }

@@ -1,0 +1,188 @@
+#Cart{
+    /* width: 90%; */
+    /* border: 2px solid red; */
+    margin: auto;
+    background-color: #f0f0f5;
+    font-family: Camphor,sans-serif;
+    line-height: 1.4;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#MyCart{
+    width: 70%;
+    /* border: 2px solid blueviolet; */
+    margin: auto;
+    background-color: #ffffff;
+    font-family: Camphor,sans-serif;
+    line-height: 1.4;
+}
+
+.CartGoBack{
+    align-items: center;
+    cursor: pointer;
+    /* color: #14bef0; */
+    font-weight: 700;
+}
+.CartGoBack>a>i{
+    /* border: 2px solid red; */
+    color: #14bef0;
+    font-weight: 700;
+}
+.CartGoBack>a{
+    /* cursor: pointer; */
+    color: #14bef0;
+    font-weight: 700;
+}
+.CartMyCart{
+    margin-top: -3px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #2d2d32;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 2%;
+}
+.HorizontalBreak{
+    padding-top: 7%;
+}
+
+.CartProd{
+    /* margin-top: 10%; */
+    padding-top: 0.3%;
+}
+
+.CartProductsList{
+    display: flex;
+    padding-top: 3%;
+}
+.CartProductsListImg>img{
+    background-color: #fff;
+    width: 175px;
+    height: 140px;
+    /* border: 2px solid red; */
+}
+.CartProductsListName>div:nth-child(1){
+    font-size: 16px;
+    font-weight: 700;
+    /* border: 2px solid red; */
+}
+.CartProductsListName>div:nth-child(2){
+    font-size: 12px;
+    color: #787887;
+    /* border: 2px solid red; */
+}
+.CartProductsListName>div:nth-child(3){
+    font-size: 12px;
+    color: #787887;
+    /* border: 2px solid red; */
+}
+.CartProductsListPrice{
+    /* border: 2px solid red; */
+    padding-left: 40%;
+}
+
+.Mrp{
+    font-size: 18px;
+    font-weight: 700;
+    color: #414146;
+
+}
+.MrpCut{
+    text-decoration-line: line-through;
+    padding-left: 5px!important;
+    color: #787887;
+}
+.MrpCutGreen{
+    /* border: 2px solid red;    */
+    color: #2ab32e ;
+}
+.CartButton{
+    margin: 5px;
+    display: flex;
+}
+.CartAddSubBTN{
+    border-radius: 2px;
+    border: 1px solid #14bef0;
+    cursor: pointer;
+    line-height: 38px;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    color: #14bef0;
+}
+
+.CartCount{
+    border-radius: 2px;
+    border: 1px solid #14bef0;
+    cursor: pointer;
+    line-height: 38px;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: #14bef0;
+}
+
+.AddMedicines>button{
+    cursor: pointer;
+    width: auto;
+    line-height: 1.4;
+    padding: 11px 12px;
+    border-radius: 2px;
+    border-image: initial;
+    /* border: 1px solid transparent; */
+    background: #fff;
+    color: #1ebef0;
+    border: 3px solid #1ebef0;
+    outline: none;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 20px!important;    
+    margin-top: 20px!important;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 700;
+}
+
+.AmountPaySave{
+    display: flex;
+}
+.AmountPay{
+    margin-left: 3%;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 20px!important;
+}
+.AmountSave{
+    /* border: 2px solid red; */
+    color: #00a500;
+    font-size: 16px;
+    font-weight: 700;
+    /* padding-bottom: 20px!important; */
+    /* align-content: right; */
+    margin-left: 67%;
+    margin-top: -0.6%;
+    
+}
+
+.CheckOut{
+    width: 95%;
+    margin: auto;
+}
+
+.CheckOut>button{
+    border: 1px solid transparent;
+    border-radius: 2px;
+    /* border-image: initial; */
+    cursor: pointer;
+    width: 100%;
+    line-height: 1.4;
+    color: #fff;
+    background: #14bef0;
+    ont-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
