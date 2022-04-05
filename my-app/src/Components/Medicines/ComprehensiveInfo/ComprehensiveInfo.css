@@ -1,0 +1,17 @@
+#ComprehensiveInfo{
+    width: 100%;
+    background-color: #e7f1f7;
+    line-height: 1.4;
+    margin-top: 5%;
+
+}
+#ComprehensiveInfoDiv{
+    margin: auto;
+    width: 91%;
+    /* border: 2px solid red; */
+}
+#ComprehensiveInfo>div>img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
