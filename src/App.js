@@ -28,7 +28,7 @@ import {Finddoctors} from "./Components/Finddoctors/Finddoctors"
 // import Homepage from "./Components/Auth/Homepage/homepage"
 // import Login from "./Components/Auth/Login/login"
 // import Register from "./Components/Auth/Register/register"
-
+//trial
 
 function App() {
   return (
