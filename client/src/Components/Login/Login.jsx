@@ -7,10 +7,18 @@ export default function Login() {
     const [password, setPassword] = useState("")
     const [loginStaus, setLoginStatus] = useState(true)
 
-    const handleOnSubmit = (event) => {
+    const handleOnSubmitLogin = (event) => {
         event.preventDefault();
         console.log("email submit", email)
         console.log("pass submit", password)
+        alert("Login Successful")
+    }
+
+    const handleOnSubmitSignUp = (event) => {
+        event.preventDefault();
+        console.log("email submit", email)
+        console.log("pass submit", password)
+        alert("Register Successful")
     }
     
     // const loginStaus= true;
@@ -33,7 +41,7 @@ export default function Login() {
                 <div className={styles.right}>
                     <div className={styles.form_container}>
                         <form
-                            onSubmit={handleOnSubmit}
+                            onSubmit={handleOnSubmitLogin}
                         >
                             <div>
                                 <label>
@@ -87,7 +95,7 @@ export default function Login() {
                 <div className={styles.right}>
                     <div className={styles.form_container}>
                         <form
-                            onSubmit={handleOnSubmit}
+                            onSubmit={handleOnSubmitSignUp}
                         >
 
 
