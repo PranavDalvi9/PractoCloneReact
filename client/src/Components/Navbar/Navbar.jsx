@@ -66,7 +66,9 @@ const Navbar = () => {
       <div className={styles.right}>For Providers</div>
       <div className={styles.right}>Security & help</div>
       <div className={styles.right}>
-        <button className={styles.login_btn}>Login / Signup</button>
+        <button className={styles.login_btn}>
+          <Link to="/login">Login / Signup</Link>
+        </button>
       </div>
     </nav>
   );

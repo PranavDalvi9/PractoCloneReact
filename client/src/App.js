@@ -26,6 +26,8 @@ import { Finddoctors } from "./Components/Finddoctors/Finddoctors";
 import Homepage from "./Components/Home/Homepage";
 import Videoconsult from "./Components/Videoconsult/Videoconsult";
 
+import Login from "./Components/Login/Login";
+
 // import Homepage from "./Components/Auth/Homepage/homepage"
 // import Login from "./Components/Auth/Login/login"
 // import Register from "./Components/Auth/Register/register"
@@ -34,6 +36,7 @@ function App() {
   return (
     <div className="">
       <Navbar />
+      {/* <Login/> */}
 
       {/* <Finddoctors/> */}
       {/* <Benifit/> */}
@@ -88,6 +91,8 @@ function App() {
         <Route path="/cart" element={<Cart />} />
 
         <Route path="/payment" element={<Payment />} />
+
+        <Route path='/login' element={<Login/>} />
 
         <Route
           path="/labtest"

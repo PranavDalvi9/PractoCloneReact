@@ -12,11 +12,14 @@ export const Finddoctors = () => {
   return (
     <>
       <div className={style.main}>
-        <h1>Your home for health</h1>
+        <h1 
+         className={style.name1}
+        >Your home for health</h1>
         <div>
-          <h4>Find and book</h4>
+          <h4 className={style.name1}>Find and book</h4>
 
           <input
+          className={style.searchbox}
             id="searchbox"
             type="text"
             placeholder="Search/doctors/hospitals etc."
