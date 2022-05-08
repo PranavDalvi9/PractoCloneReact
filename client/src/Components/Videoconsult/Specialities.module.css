@@ -1,0 +1,53 @@
+
+.speciality_card {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 6px 0 rgb(45 45 51 / 8%);
+  padding: 1rem 3rem;
+  cursor: default;
+}
+
+.speciality_card > .speciality_card_img {
+  width: 98px;
+  height: 98px;
+}
+
+.speciality_card > .speciality_card_title {
+  height: 37px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: #2d2d32;
+}
+
+.speciality_card > .speciality_card_price {
+  font-size: 14px;
+  color: #787887;
+  font-weight: 400;
+}
+
+.speciality_card > .consult_link {
+  display: block;
+  padding: 0%;
+  font-size: 15px;
+  font-weight: 700;
+  color: #14bef0;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-family: "CamphorBold";
+  /* background-color: #14bef0; */
+  border-radius: 5px;
+}
+
+.consult_link > svg {
+  height: 30px;
+}

@@ -1,0 +1,251 @@
+h1 {
+  font-size: 34px;
+}
+
+.coviddoctor {
+  align-items: center;
+}
+
+.neardoctor {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.covid {
+  background-color: #28328c;
+  width: 100%;
+  padding: 30px 0px;
+}
+.covidhead {
+  margin-left: 60px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 25.5px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+.coviddoctor {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.coviddoctor > img {
+  margin: 20px;
+}
+.specialbtn {
+  height: 40px;
+  width: 180px;
+  color: #14bef0;
+  border: 2px solid #14bef0;
+  padding-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.specialities {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.consultations {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 35px;
+  flex-wrap: wrap;
+}
+
+.consult {
+  font-size: 14px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.consult :nth-child(3) {
+  color: #14bef0;
+}
+.consult :nth-child(2) {
+  color: #6b6b6f;
+}
+.consultheading {
+  color: #414146;
+  margin-left: 40px;
+}
+.consultheading > p {
+  font-size: 17px;
+}
+.consultspecial {
+  font-size: 14px;
+  width: 270px;
+  color: #414146;
+  cursor: pointer;
+}
+.consultspecial > img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.consultspecial > h3 {
+  font-size: 16.3px;
+  padding-top: 20px;
+}
+.consultspecial > p {
+  font-size: 14px;
+}
+.consultdiff {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.consultspecial {
+  margin: 20px 0;
+}
+.consultspecial > h3:hover {
+  color: turquoise;
+}
+
+.article {
+  width: 280px;
+  color: #414146;
+  margin: 20px;
+}
+
+.article > img {
+  max-width: 100%;
+  height: 230px;
+  border-radius: 5px;
+}
+.readarticle {
+  width: 360px;
+  color: #414146;
+  margin: 20px;
+}
+.readarticle > h1 {
+  font-size: 34px;
+  color: black;
+  padding-bottom: 20px;
+}
+.readarticle > p {
+  font-size: 17px;
+  color: #414146;
+}
+
+.article h5 {
+  margin: 5px;
+}
+.article p {
+  margin: 5px;
+  font-size: 17px;
+}
+.readarticle > button {
+  font-size: 14px;
+  width: 150px;
+  height: 40px;
+  background-color: #14bef0;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.articleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border-top: 1px solid #ccccd1;
+  border-bottom: 1px solid #ccccd1;
+  margin: 45px auto;
+  flex-wrap: wrap;
+}
+.inputBox {
+  display: flex;
+  border: 1px solid #d7d7e0;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.inputBox > input {
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  flex-grow: 1;
+  background-color: transparent;
+}
+.code {
+  border-right: 1px solid #d7d7e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  padding: 0px 10px;
+}
+.smsbtn {
+  width: 130px;
+  height: 40px;
+  padding: 15px;
+  background-color: #14bef0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+}
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+  flex-wrap: wrap;
+}
+.download {
+  width: 430px;
+  margin: 50px;
+  color: #414146;
+}
+
+.download > h1 {
+  font-size: 34px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.download > p {
+  font-size: 17px;
+}
+h4 {
+  font-size: 17px;
+  color: black;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.google {
+  display: flex;
+  margin-top: 30px;
+}
+.google img {
+  width: 130px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
