@@ -13,8 +13,8 @@ export const DiagnosticTests = () => {
               Known as Covid-19 Virus Qualitative Throat Swab
             </p>
             <p>E-sports on next day</p>
-            <br />
-            <div>₹500</div>
+            <br /><br />
+            <div className="priceDiv">₹500</div>
           </div>
           <div className="bottom">
             <div>ADD</div>
@@ -26,7 +26,7 @@ export const DiagnosticTests = () => {
             <p className="day">Known as Glucose Fasting Blood</p>
             <p>E-sports on same day</p>
             <br />
-            <div>₹199</div>
+            <div className="priceDiv">₹199</div>
           </div>
           <div className="bottom">
             <div>ADD</div>
@@ -37,8 +37,8 @@ export const DiagnosticTests = () => {
             <h4>Beta HCG</h4>
             <p className="day">Known as Beta Hcg Automated Blood</p>
             <p>E-sports on next day</p>
-            <br />
-            <div>₹400</div>
+            <br /><br /><br />
+            <div className="priceDiv">₹400</div>
           </div>
           <div className="bottom">
             <div>ADD</div>
@@ -50,7 +50,7 @@ export const DiagnosticTests = () => {
             <p className="day">Known as Vitamin B12 Conventional Blood</p>
             <p>E-sports on same day</p>
             <br />
-            <div>₹490</div>
+            <div className="priceDiv">₹490</div>
           </div>
           <div className="bottom">
             <div>ADD</div>
@@ -61,8 +61,8 @@ export const DiagnosticTests = () => {
             <h4>HbA1c</h4>
             <p className="day">Known as Glycosylated Haemoglobin Blood</p>
             <p>E-sports on next day</p>
-            <br />
-            <div>₹300</div>
+            <br /><br />
+            <div className="priceDiv">₹300</div>
           </div>
           <div className="bottom">
             <div>ADD</div>
@@ -74,7 +74,7 @@ export const DiagnosticTests = () => {
             <p>Known as Liver Function Tests Blood</p>
             <p>E-sports on same day</p>
             <br />
-            <div>₹673</div>
+            <div className="priceDiv">₹673</div>
           </div>
           <div className="bottom">
             <div>ADD</div>

@@ -20,6 +20,7 @@ p {
   width: 80%;
   /* border: 1px solid red; */
   /* padding-top: 8%; */
+  margin-top: -7%;
 }
 
 .Labtests > h2 {
@@ -49,6 +50,8 @@ p {
 .head {
   padding: 10px 10px;
   line-height: 15px;
+  border: 2px solid transparent;
+  height: 210px;
 }
 
 .head > div {
@@ -69,6 +72,13 @@ p {
   border: 1px solid rgb(215, 207, 207);
   color: blue;
   font-weight: bolder;
+  /* background-color: #14bef0; */
+  margin-top: 10px;
+}
+
+.bottom > div:hover{
+  background-color: #14bef0;
+  color: white;
 }
 
 /* ==================== */
@@ -267,4 +277,14 @@ button:hover {
 .boxes {
   border-radius: 5px;
   border: 1px solid rgb(216, 206, 206);
+}
+
+.box{
+  /* border: 2px solid red !important; */
+  height: 253px;
+}
+
+.priceDiv{
+  /* border: 2px solid black; */
+  /* margin-top: 30px; */
 }
