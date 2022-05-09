@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
       <div className={styles.left}>
         <Link to={"/Videoconsult"}>
-          <strong>Consult</strong>{" "}
+          <strong>Video Consult</strong>{" "}
         </Link>
         <br />
         <span>Consult with top doctors</span>

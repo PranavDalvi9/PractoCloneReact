@@ -5,7 +5,6 @@ export const DiagnosticTests = () => {
   return (
     <div className="Labtests">
       <h2>Top Booked Diagnostic Test</h2>
-      <br />
       <div className="diagnostic">
         <div className="box">
           <div className="head">
@@ -84,7 +83,7 @@ export const DiagnosticTests = () => {
       </div>
       <br />
       <h2>Find Tests by Health Concern</h2>
-      <br />
+
       <div className="diagnostic-1">
         <div>
           <img
@@ -130,9 +129,7 @@ export const DiagnosticTests = () => {
         </div>
       </div>
       <br />
-
       <h2>Popular Health Checkup Packages</h2>
-      <br />
       <div className="package">
         <div>
           <div className="image">
@@ -151,7 +148,7 @@ export const DiagnosticTests = () => {
           <hr className="line" />
           <div className="mid-bottom">
             <div>
-              <span className=".amount">₹1099 </span>
+              <span className="amount">₹1099 </span>
               <span className="saving">₹1400 </span>
               <span className="discount">22% off</span>
             </div>
@@ -177,7 +174,7 @@ export const DiagnosticTests = () => {
           <hr className="line" />
           <div className="mid-bottom">
             <div>
-              <span className=".amount">₹899 </span>
+              <span className="amount">₹899 </span>
               <span className="saving">₹1200 </span>
               <span className="discount">25% off</span>
             </div>
@@ -203,7 +200,7 @@ export const DiagnosticTests = () => {
           <hr className="line" />
           <div className="mid-bottom">
             <div>
-              <span className=".amount">₹899 </span>
+              <span className="amount">₹899 </span>
               <span className="saving">₹1200 </span>
               <span className="discount">25% off</span>
             </div>
@@ -214,9 +211,9 @@ export const DiagnosticTests = () => {
         </div>
       </div>
       <br />
+      <br />
 
       <h2>Top booked Medical tests</h2>
-      <br />
       <span>Get 10% Health Cashback*</span>
       <span>T&C</span>
       <br />
@@ -233,36 +230,33 @@ export const DiagnosticTests = () => {
               <h4>Lipid Profile</h4>
             </span>
           </div>
-          <hr />
           <div className="medical-2">
             <h4>Ldl Cholesterol Test</h4>
             <p className="faint">
               Also known as Cholesterol Ldl Enzymatic Colorimetric Method Blood
             </p>
           </div>
-          <hr />
           <div className="medical-3">
             <h4>Hdl Cholesterol Test</h4>
             <p className="faint">
               Also known as Cholesterol Hdl Enzymatic Colorimetric Method Blood
             </p>
           </div>
-          <hr />
           <div className="medical-4">
             <h4>Vldl Cholesterol Test</h4>
             <p className="faint">Also known as Vldl Cholesterol Blood</p>
           </div>
-          <hr />
+
           <div className="medical-5">
             <h4>Total Cholesterol Test</h4>
             <p className="faint">Also known as Cholesterol Test</p>
           </div>
-          <hr />
+
           <div className="medical-6">
             <h4>Triglycerides Blood Test</h4>
             <p className="faint">Also known as Triglycerides Blood</p>
           </div>
-          <hr />
+
           <div className="medical-7">
             <button>Book Now</button>
           </div>
@@ -280,32 +274,32 @@ export const DiagnosticTests = () => {
               <h4>Liver Profile</h4>
             </span>
           </div>
-          <hr />
+
           <div className="medical-2">
             <h4>Gamma Glutamyl Transferase</h4>
             <p className="faint">Also known as GGT</p>
           </div>
-          <hr />
+
           <div className="medical-3">
             <h4>Total Bilirubin</h4>
             <p className="faint">Also known as Bilirubin Total Blood</p>
           </div>
-          <hr />
+
           <div className="medical-4">
             <h4>Ast Test</h4>
             <p className="faint">Also known as SGOT</p>
           </div>
-          <hr />
+
           <div className="medical-5">
             <h4>Alp Test</h4>
             <p className="faint">Also known as Alkaline Phosphatase</p>
           </div>
-          <hr />
+
           <div className="medical-6">
             <h4>Albumin Test Test</h4>
             <p className="faint">Also known as Albumin Blood</p>
           </div>
-          <hr />
+
           <div className="medical-7">
             <button>Book Now</button>
           </div>
@@ -323,34 +317,34 @@ export const DiagnosticTests = () => {
               <h4>Blood Sugar</h4>
             </span>
           </div>
-          <hr />
+
           <div className="medical-2">
             <h4>Hba1C Test</h4>
             <p className="faint">
               Also known as Glycosylated Haemoglobin Blood
             </p>
           </div>
-          <hr />
+
           <div className="medical-3">
             <h4>Fasting Blood Sugar Test</h4>
             <p className="faint">Also known as Glucose Fasting Blood</p>
           </div>
-          <hr />
+
           <div className="medical-4">
             <h4>Random Blood Sugar Test</h4>
             <p className="faint">Also known as RBS</p>
           </div>
-          <hr />
+
           <div className="medical-5">
             <h4>Blood Sugar Levels After Eating</h4>
             <p className="faint">Also known Post Prandial Blood Sugar</p>
           </div>
-          <hr />
+
           <div className="medical-6">
             <h4>Creatinine Test</h4>
             <p className="faint">Also known as Creatinine Conventional Blood</p>
           </div>
-          <hr />
+
           <div className="medical-7">
             <button>Book Now</button>
           </div>

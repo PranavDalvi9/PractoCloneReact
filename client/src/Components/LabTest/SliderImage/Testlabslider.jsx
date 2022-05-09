@@ -1,13 +1,8 @@
-import "./SliderImage.css";
+import "./Testlabslider.css";
 import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
-import { BrowseCategoryMedicine } from "../BrowseCategoryMedicine/BrowseCategoryMedicine";
-import { IntroducingBelowCategory } from "../IntroducingBelowCategory/IntroducingBelowCategory";
-import { ComprehensiveInfo } from "../ComprehensiveInfo/ComprehensiveInfo";
-import { WhatUserSays } from "../WhatUserSays/WhatUserSays";
-import { DownloadPracto } from "../DownloadPracto/DownloadPracto";
 
-export default function SliderImage() {
+export default function Testlabslider() {
   const images = [
     {
       url: "https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/full-width-1.48172107.png",
@@ -35,15 +30,10 @@ export default function SliderImage() {
           width={"100%"}
           height={310}
           images={images}
-          showBullets={false}
+          // showBullets={false}
           bgColor={"transperent"}
         />
       </div>
-      <BrowseCategoryMedicine />
-      <IntroducingBelowCategory />
-      <ComprehensiveInfo />
-      <WhatUserSays />
-      <DownloadPracto />
     </div>
   );
 }

@@ -22,38 +22,49 @@ p {
   /* padding-top: 8%; */
 }
 
+.Labtests > h2 {
+  font-size: 20px;
+}
+
 .diagnostic {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
   grid-gap: 10px;
+  /* min-height: 250px; */
   /* border: 1px solid red; */
 }
 
 .diagnostic > div {
   border: 1px solid rgb(215, 207, 207);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
   cursor: pointer;
   border-radius: 5px;
 }
 
+.diagnostic > div:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 .head {
   padding: 10px 10px;
+  line-height: 15px;
 }
 
 .head > div {
   font-weight: bold;
   font-size: 20px;
+  line-height: 15px;
 }
 
 .head > p {
   font-size: 14px;
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 
 .bottom > div {
   text-align: center;
-  padding-top: 15px;
+  /* padding-top: 30px; */
   height: 30px;
   border: 1px solid rgb(215, 207, 207);
   color: blue;
@@ -155,12 +166,15 @@ p {
   color: rgb(65, 65, 70);
   font-weight: bold;
   font-family: Helvetica, Arial, sans-serif;
+  margin-right: 10px;
 }
 
 .saving {
   font-size: 14px;
+  text-decoration: line-through;
   color: rgb(180, 180, 190);
   font-family: Helvetica, Arial, sans-serif;
+  margin-right: 10px;
 }
 
 .discount {
@@ -168,6 +182,7 @@ p {
   font-size: 14px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 button {
@@ -197,7 +212,7 @@ button:hover {
 
 #medical-1 {
   display: flex;
-  height: 60px;
+  height: 80px;
   /* border: 1px solid red; */
 }
 
@@ -222,6 +237,10 @@ button:hover {
   color: rgb(120, 120, 135);
 }
 
+/* .medical-2 {
+  line-height: 15px;
+} */
+
 .medical-1,
 .medical-3,
 .medical-5,
@@ -231,14 +250,18 @@ button:hover {
 .medical-7 {
   padding: 10px 10px;
   margin: auto;
-  /* height: 60px; */
+  height: 75px;
+  line-height: 0px;
 }
 
-.medical-5,
-.medical-2,
-.medical-4,
-.medical-6 {
-  height: 40px;
+.medical-5:hover,
+.medical-2:hover,
+.medical-3:hover,
+.medical-4:hover,
+.medical-6:hover {
+  /* height: 40px;
+  line-height: 15px; */
+  background-color: #eeeef8;
 }
 
 .boxes {

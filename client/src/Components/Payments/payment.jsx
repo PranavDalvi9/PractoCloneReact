@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import "./payment.css";
 
-function Payment () {
+function Payment() {
   React.useEffect(() => {
     getData();
   }, []);

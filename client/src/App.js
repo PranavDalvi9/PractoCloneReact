@@ -21,12 +21,12 @@ import { Footer } from "./Components/Footer/Footer";
 import { DiagnosticTests } from "./Components/LabTest/DiagnosticTests";
 import { MidPart } from "./Components/LabTest/MidPart";
 
-
 import { Finddoctors } from "./Components/Finddoctors/Finddoctors";
 import Homepage from "./Components/Home/Homepage";
 import Videoconsult from "./Components/Videoconsult/Videoconsult";
-
+import Appdownload from "./Components/Videoconsult/Appdownload";
 import Login from "./Components/Login/Login";
+import Testlabslider from "./Components/LabTest/SliderImage/Testlabslider";
 
 // import Homepage from "./Components/Auth/Homepage/homepage"
 // import Login from "./Components/Auth/Login/login"
@@ -92,15 +92,16 @@ function App() {
 
         <Route path="/payment" element={<Payment />} />
 
-        <Route path='/login' element={<Login/>} />
+        <Route path="/login" element={<Login />} />
 
         <Route
           path="/labtest"
           element={
             <>
+              <Testlabslider />
               <DiagnosticTests />
               <MidPart />
-              <DownloadPracto />{" "}
+              <Appdownload />{" "}
             </>
           }
         />
