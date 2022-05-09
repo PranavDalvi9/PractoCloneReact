@@ -13,9 +13,9 @@ export default function Testlabslider() {
     {
       url: "https://prod-dx.s3.amazonaws.com:443/dx/campaigns/dweb_images/BackToWorkBangalore.png",
     },
-    {
-      url: "https://prod-dx.s3.amazonaws.com:443/dx/campaigns/dweb_images/YoungIndianHealthCheckup.png",
-    },
+    // {
+    //   url: "https://prod-dx.s3.amazonaws.com:443/dx/campaigns/dweb_images/YoungIndianHealthCheckup.png",
+    // },
     // { url: "images/5.jpg" },
     // { url: "images/6.jpg" },
     // { url: "images/7.jpg" },
@@ -28,7 +28,7 @@ export default function Testlabslider() {
           autoPlay={true}
           showBullets={false}
           width={"100%"}
-          height={310}
+          height={350}
           images={images}
           // showBullets={false}
           bgColor={"transperent"}

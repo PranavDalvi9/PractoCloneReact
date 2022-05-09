@@ -4,9 +4,8 @@
   position: relative;
   overflow-x: scroll;
   overflow-y: hidden;
-  margin-top: 2rem;
-  padding: 1rem 0;
   height: auto;
+  /* border: 2px solid red; */
 }
 
 .slider::-webkit-scrollbar {
@@ -50,16 +49,17 @@
   /* transform: translateY(-50%); */
   margin-top: -27.5px;
   background-color: #fff;
-  height: 4rem;
-  width: 4rem;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   /* box-shadow: 0 2px 8px 0 rgb(51 60 63 / 22%); */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* color: #34422d; */
-  font-size: 2rem;
+  color: #34422d;
+  font-size: 20px;
   padding: 0;
+  /* border: 1px solid red; */
 }
 
 .ctrl-btn.pro-prev {
