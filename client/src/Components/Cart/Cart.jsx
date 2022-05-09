@@ -6,8 +6,12 @@ import axios from "axios";
 
 
 
-import { addCart } from "../../Redux/Action";
-import { addItems } from "../../Redux/Action";
+// import { addCart } from "../../Redux/Action";
+// import { addItems } from "../../Redux/Action";
+// import { store } from "../../Redux/Store";
+
+import { addCart } from "../../Redux/Cart/Action";
+import { addItems } from "../../Redux/Cart/Action";
 import { store } from "../../Redux/Store";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -18,7 +22,7 @@ export default function Cart() {
     const [ discount, setDiscount] = useState(0)
     const dispatch = useDispatch();
 
-    const items = useSelector((store) => store.items)
+    const items = useSelector((store) => store.cart.items)
     var totalVar = 0
     var discountCar = 0
 React.useEffect(()=>{

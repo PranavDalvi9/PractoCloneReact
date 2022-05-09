@@ -4,12 +4,13 @@ margin: auto;
 margin-left: 3%;
 display: flex;
 /* border:  2px solid red; */
-position: fixed;
-margin-bottom: 10%;
+position: sticky;
+/* margin-bottom: 10%; */
 height: 50px;
 margin-top: 1%;
 background-color: #ffffff;
-padding-top: 7%;
+/* padding-top: 4%; */
+
 }
 
 .MedicineSearchInput{

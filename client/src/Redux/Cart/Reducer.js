@@ -6,7 +6,7 @@ const initState = {
     items : [],
 } 
 
-export const reducer = (store = initState, {type, payload}) => {
+export const Cartreducer = (store = initState, {type, payload}) => {
     console.log("store",store)
     // console.log(store.items.length)
      switch(type){

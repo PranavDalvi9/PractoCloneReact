@@ -5,7 +5,7 @@
     width: 90%;
     margin: auto;
     /* margin-top: 10%; */
-    padding-top: 10%;
+    /* padding-top: 10%; */
     padding-bottom: 5%;
 }
 .MedicinesProductCategoryTitle1{
@@ -224,6 +224,7 @@
 }
 
 .MedicinesProductAddToButton{
+
     width: 50%;
     display: inline-block;
     min-height: 1px;

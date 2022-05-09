@@ -5,9 +5,11 @@ import axios from "axios"
 import React, { useState } from "react"
 import { useParams } from "react-router-dom"
 
-import { addCart } from "../../Redux/Action";
-import { addItems } from "../../Redux/Action";
-import { store } from "../../Redux/Store";
+// import { addCart } from "../../Redux/Action";
+import { addCart } from "../../Redux/Cart/Action"
+import { addItems } from "../../Redux/Cart/Action";
+// import { store } from "../../Redux/Store";
+import { store } from "../../Redux/Store"
 import { useDispatch, useSelector } from "react-redux";
 
 import MedicineSearch from "../MedicineSearch/MedicineSearch"

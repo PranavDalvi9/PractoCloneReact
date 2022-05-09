@@ -8,8 +8,11 @@ import Button from "@material-ui/core/Button";
 import AddIcon from "@material-ui/icons/Add";
 import RemoveIcon from "@material-ui/icons/Remove";
 
-import { addCart } from "../../Redux/Action";
-import { addItems } from "../../Redux/Action";
+// import { addCart } from "../../Redux/Action";
+// import { addItems } from "../../Redux/Action";
+// import { store } from "../../Redux/Store";
+import { addItems } from "../../Redux/Cart/Action";
+import { addCart } from "../../Redux/Cart/Action";
 import { store } from "../../Redux/Store";
 import { useDispatch, useSelector } from "react-redux";
 import {Cart} from ".././Cart/Cart"
@@ -22,8 +25,10 @@ import MedicinesProduct from "../MedicinesProduct/MedicinesProduct";
 export default function MedicineSearch() {
 
   const dispatch = useDispatch();
-  const count = useSelector((store) => store.cart)
-  const items = useSelector((store) => store.items)
+  const count = useSelector((store) => store.cart.cart)
+  const items = useSelector((store) => store.cart.items)
+
+  // console.log("ct", count)
 
   return (
     <div>
