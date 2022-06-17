@@ -1,0 +1,12 @@
+.mainIndivDiv{
+    /* display: grid; */
+    padding: 2%;
+    gap: 2%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto ;
+}
+
+.mainIndivDiv>div{
+    border: 2px solid #B4E197;
+}
